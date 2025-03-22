@@ -33,7 +33,7 @@ let user1: User = "admin";
 
 function roles(a: User, b: User) {
   //now parameters can have only one of these three values of type user
-  console.log(a);
+  console.log(a, b);
 }
 
 // roles("admin", "visitor"); // error '"visitor"' is not assignable to parameter of type 'User'
