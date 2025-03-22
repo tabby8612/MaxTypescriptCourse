@@ -12,7 +12,7 @@ function process1(val: any) {
   val.toLowerCase();
 }
 
-//---------- Optional
+//---------- Optional Operator
 function generateError(msg?: string) {
   console.log(msg);
 }

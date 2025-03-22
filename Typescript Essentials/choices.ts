@@ -17,7 +17,6 @@ enum CusRole {
 let guest: CusRole = CusRole.Guest;
 
 //Literal Types
-
 let role: "admin" | "editor" | "guest" = "admin";
 
 let nums: [1 | -1, 4 | 5];

@@ -15,7 +15,7 @@ adminUsers = ["Max", 1];
 adminUsers = ["Max", "Tabish"];
 adminUsers = [1, 1];
 
-//tuples - fixing type and no. of parameters
+//-----  tuples - fixing type and no. of parameters
 let possibleValues: [number, string];
 
 possibleValues = [5, "five"];

@@ -14,8 +14,9 @@ console.log(inputEl);
 // console.log(inputEl?.value); // optional chaining
 
 //---------------- Type Casting
-const inputHTML = document.getElementById("user_name") as HTMLInputElement | null;
+const inputHTML = document.getElementById("user_name") as HTMLInputElement;
 
 // if (!inputHTML) throw new Error("this is error");
 
+console.log(inputHTML.value);
 console.log(inputHTML?.value);
