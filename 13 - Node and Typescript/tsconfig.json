@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "module": "NodeNext",
+    "outDir": "dist",
+    "lib": ["es2022", "DOM"],
+    "strict": true
+  }
+}
